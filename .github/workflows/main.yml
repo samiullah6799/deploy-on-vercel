@@ -3,7 +3,7 @@ name: Deploy Flask App to Vercel
 on:
   push:
     branches:
-      - main # or the branch you want to trigger deployment
+      - dev # or the branch you want to trigger deployment
 
 jobs:
   deploy:
